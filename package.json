@@ -1,0 +1,73 @@
+{
+  "name": "legendary-doodle",
+  "version": "0.0.1",
+  "description": "testing with tsmocks, wiremock-mapper and mock-component",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orieken/legendary-doodle.git"
+  },
+  "keywords": [
+    "tsmocks",
+    "wiremock-mapper",
+    "mock-component",
+    "mock-directive",
+    "mock-pipe"
+  ],
+  "author": "Oscar Rieken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orieken/legendary-doodle/issues"
+  },
+  "homepage": "https://github.com/orieken/legendary-doodle#readme",
+  "dependencies": {
+    "@angular/animations": "^5.2.2",
+    "@angular/common": "^5.2.2",
+    "@angular/compiler": "^5.2.2",
+    "@angular/core": "^5.2.2",
+    "@angular/forms": "^5.2.2",
+    "@angular/http": "^5.2.2",
+    "@angular/platform-browser": "^5.2.2",
+    "@angular/platform-browser-dynamic": "^5.2.2",
+    "@angular/router": "^5.2.2",
+    "core-js": "^2.5.3",
+    "mock-directive": "^5.0.0-rc.3",
+    "mock-pipe": "^5.0.0-rc.3",
+    "rxjs": "^5.5.6",
+    "webpack": "^3.10.0",
+    "zone.js": "^0.8.20"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.6",
+    "@angular/compiler-cli": "^5.2.2",
+    "@angular/language-service": "^5.2.2",
+    "@types/jasmine": "^2.8.6",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/node": "^9.4.0",
+    "codelyzer": "^4.1.0",
+    "jasmine-core": "^2.9.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.4.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-spec-reporter": "0.0.32",
+    "mock-component": "^5.0.0-rc.3",
+    "protractor": "^5.3.0",
+    "puppeteer": "^1.0.0",
+    "ts-mocks": "^0.2.2",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2",
+    "wiremock-mapper": "^0.2.1"
+  },
+  "engines": {
+    "node": "~8.9.4",
+    "npm": "~5.6.0"
+  }
+}
